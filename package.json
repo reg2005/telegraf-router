@@ -1,6 +1,6 @@
 {
   "name": "telegraf-router",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "index.js",
   "description": "Session based routing for your telgrafjs telegram bot",
   "repository": {
