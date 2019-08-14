@@ -8,10 +8,11 @@
     "url": "git+https://github.com/reg2005/telegraf-router.git"
   },
   "keywords": [
-    "VueJS",
-    "AdonisJS",
-    "Websocket",
-    "WS"
+    "bot",
+    "bot-router",
+    "telegram",
+    "telegraf",
+    "telegraf-router"
   ],
   "author": "cmp08@ya.ru Evgeniy Ryumin",
   "license": "MIT",
