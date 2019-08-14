@@ -10,7 +10,7 @@ yarn add telegraf
 ```
 
 ```js
-const { Router, getCBData, getMessage } = require("./../index.js");
+const { Router, getCBData, getMessage } = require("telegraf-router");
 const Telegraf = require("telegraf");
 const session = require('telegraf/session')
 const routes = [
