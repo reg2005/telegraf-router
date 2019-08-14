@@ -1,0 +1,38 @@
+{
+  "name": "telegraf-router",
+  "version": "1.0.1",
+  "main": "index.js",
+  "description": "Session based routing for your telgrafjs telegram bot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reg2005/telegraf-router.git"
+  },
+  "keywords": [
+    "VueJS",
+    "AdonisJS",
+    "Websocket",
+    "WS"
+  ],
+  "author": "cmp08@ya.ru Evgeniy Ryumin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reg2005/telegraf-router/issues"
+  },
+  "homepage": "https://github.com/reg2005/telegraf-router#readme",
+  "scripts": {
+    "testbot": "nodemon --watch ./ -x \"DEBUG=* mocha test/bot-test.spec.js\"",
+    "test": "nodemon --watch ./ -x \"DEBUG=* mocha test/test.spec.js\""
+  },
+  "dependencies": {
+    "lodash": "^4.17.14",
+    "universal-router": "^8.2.0"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "debug": "^4.1.1",
+    "mocha": "^5.2.0",
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.1",
+    "telegraf": "^3.30.1"
+  }
+}

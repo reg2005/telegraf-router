@@ -1,15 +1,4 @@
-###TelegrafRouter
-Session based routing for your [telegraf.js](https://github.com/telegraf/telegraf) telegram bot
-###Installation
-```bash
-npm install telegraf-router --save
-```
-or using yarn
-```bash
-yarn add telegraf
-```
-
-```js
+require('dotenv').config();
 const { Router, getCBData, getMessage } = require("./../index.js");
 const Telegraf = require("telegraf");
 const session = require('telegraf/session')
@@ -102,5 +91,3 @@ module.exports = async function botInit(tgKey){
     });
     await bot.launch();
 }
-
-```
