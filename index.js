@@ -86,7 +86,7 @@ class Router {
       await this.router.resolve(data);
     } catch (e) {
       console.error("Router exception", e.message);
-      this.errorCb({ data, e });
+      this.errorCb(data, e);
     }
   }
 
