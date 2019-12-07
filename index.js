@@ -31,7 +31,7 @@ function defineRouterPath({ route = '', ctx } = {}) {
           route.push("callback_query");
         }
       } else if (ctx.updateType === 'message'){
-        if (ctx.message.text === "/start") {
+        if (('' + _.get(ctx, 'message.text', '')).indexOf("/start") !== -1){
           route = ["start"];
         } else if (route.indexOf('message') === -1){
           route.push('message')
