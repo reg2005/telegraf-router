@@ -83,7 +83,7 @@ class Router {
       router: this
     };
     try {
-      await this.router.resolve(data);
+     if(!ctx.update.callback_query || !!ctx.update.callback_query.data.match(/redirect:/)) await this.router.resolve(data);
     } catch (e) {
       console.error("Router exception", e.message);
       this.errorCb(data, e);
